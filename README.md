@@ -25,13 +25,13 @@ Sample -
   "dateOfBirth": "1995-05-12"
 }
 
-2. GET
+2. GET :
 GET at http://localhost:3000/students
 
-3. DELETE
+3. DELETE :
 DELETE at http://localhost:3000/students/:rollNumber
 
-4. UPDATE
+4. UPDATE :
 PUT at http://localhost:3000/students/:rollNumber
 
 5. Pagination and Search
