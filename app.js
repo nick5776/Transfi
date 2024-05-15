@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 const port = 3000;
 
-mongoose.connect('mongodb://localhost/tranfi_learning', {
+mongoose.connect('mongodb://localhost/transfi_learning', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
