@@ -35,6 +35,7 @@ DELETE at http://localhost:3000/students/:rollNumber
 PUT at http://localhost:3000/students/:rollNumber
 
 5. Pagination and Search
+   
 Pagination:
 To retrieve a paginated list of students, you need to include the page and limit query parameters in the URL. The page parameter specifies the page number, and the limit parameter specifies the maximum number of students to return per page.
 API Endpoint: GET /students?page=<page_number>&limit=<limit>
@@ -46,6 +47,7 @@ To retrieve the second page with a limit of 20 students: GET /students?page=2&li
 Search:
 To search for students by their full name, you need to include the search query parameter in the URL. The search query is case-insensitive and performs a partial match on the fullName field.
 API Endpoint: GET /students?search=<search_query>
+
 Example:
 
 To search for students whose names contain "john": GET /students?search=john
