@@ -48,12 +48,9 @@ Search:
 To search for students by their full name, you need to include the search query parameter in the URL. The search query is case-insensitive and performs a partial match on the fullName field.
 API Endpoint: GET /students?search=<search_query>
 
-Example:
-
-To search for students whose names contain "john": GET /students?search=john
+Example : To search for students whose names contain "john": GET /students?search=john
 
 You can combine pagination and search by including all three query parameters in the URL:
 API Endpoint: GET /students?page=<page_number>&limit=<limit>&search=<search_query>
-Example:
 
-To retrieve the second page with a limit of 20 students whose names contain "doe": GET /students?page=2&limit=20&search=doe
+Example : To retrieve the second page with a limit of 20 students whose names contain "doe": GET /students?page=2&limit=20&search=doe
